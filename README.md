@@ -8,15 +8,18 @@ NetPractice is a networking project designed to introduce the fundamentals of co
 ## Instructions
 - **Run the interface:** Execute `run.sh` from the application directory. The script scans for an available port starting from `49152` (defaulting to `49242` if `ss` is unavailable) and opens `http://localhost:<port>` in your web browser. Alternatively, start a server manually with `python3 -m http.server <port>`.
 - **Login:** Enter your 42 login in the training tab to load your assigned network scenarios.
+- **Export Configurations:** After successfully completing each level, click the `Get my config` button to download the configuration file for that level.
+- **Submission:** Place all 10 exported configuration files (one per level) directly at the root of your Git repository.
 
 ## Resources
 - **Networking Concepts Studied:**
   - OSI layers
-  - TCP/IP
-  - Subnet
-  - Network devices
-  - Network Topology
-  - Types Of Area Networks
+  - TCP/IP addressing
+  - Subnet masks
+  - Default gateways
+  - Routers and switches
+  - Network topology
+  - Types of area networks (LAN, MAN, WAN)
 - **Articles**
   - [OSI Model](https://www.geeksforgeeks.org/computer-networks/open-systems-interconnection-model-osi/)  
   - [TCP/IP Model](https://www.geeksforgeeks.org/computer-networks/tcp-ip-model/)  
